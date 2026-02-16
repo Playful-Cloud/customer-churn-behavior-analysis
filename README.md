@@ -1,4 +1,12 @@
-!\[Customer Churn Banner](reports/figures/Customer\_Churn\_Analysis.png)
+!\[Business Problem \& Goals](reports/figures/Business\_roblem\_Goals.png)
+
+!\[Chi-Square Test](reports/figures/Chi\_square\_Test.png)
+
+!\[Churn Rate](reports/figures/ChurnRate.png)
+
+!\[Classification Type](reports/figures/Classification\_Type.png)
+
+
 
 
 
