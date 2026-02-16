@@ -29,6 +29,14 @@ The company seeks to identify which behaviors and interactions correlate with ch
 
 ---
 
+## Tools & Technologies Used
+
+- Python 3.x  
+- Pandas, NumPy, Matplotlib, Seaborn  
+- Jupyter Notebooks  
+
+---
+
 ## Dataset Handling
 
 ### Raw Data
@@ -81,14 +89,6 @@ Data transformation focuses on cleaning, aggregating, and feature engineering to
 
 ---
 
-## Tools & Technologies Used
-
-- Python 3.x  
-- Pandas, NumPy, Matplotlib, Seaborn  
-- Jupyter Notebooks  
-
----
-
 ## Repository Contents Overview
 
 | Folder | Description |
@@ -116,6 +116,16 @@ customer-churn-behavior-analysis/
 └── .gitignore             # Files/folders to exclude from Git
 
 ```
+
+---
+
+### Jupyter Norebook:
+
+| Notebook | Description |
+|:--------|:-------------|
+| [**01_eda/**](./01_eda.ipynb) |  Exploratory Data Analysis (EDA) covering initial data exploration, distributions, correlations, and outlier detection.. |
+| [**02_data_cleaning/**](./02_data_cleaning.ipynb) |  Data Cleaning and Transformation: missing value handling, duplicates removal, standardization, feature derivation, and quality checks. |
+| [**03_analysis/**](./03_analysis.ipynb) |  Data Analysis & Insights: segmentation, churn behavior patterns, statistical tests (Chi-Square), and visualization of key metrics.. |
 
 
 ---
@@ -220,7 +230,13 @@ print(f"P-value: {p_value:.4f}")
 
 ---
 
+### Final Report:
 
+| File | Description |
+|:--------|:-------------|
+| [**Fit.ly Customer Churn Analysis/**](./Fit.ly Customer Churn Analysis.pdf) |  A comprehensive report summarizing the entire churn analysis project. Includes: customer segmentation, engagement and support behavior analysis, key metrics, Chi-Square statistical tests, visualizations, and actionable business recommendations. |
+
+---
 
 
 
