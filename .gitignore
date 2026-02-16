@@ -16,3 +16,20 @@ __pycache__/
 # Ignore system files
 .DS_Store
 Thumbs.db
+
+# Data folders
+data/
+
+# CSV files
+*.csv
+
+# PDFs
+*.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
