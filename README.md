@@ -86,7 +86,6 @@ Data transformation focuses on cleaning, aggregating, and feature engineering to
 - Python 3.x  
 - Pandas, NumPy, Matplotlib, Seaborn  
 - Jupyter Notebooks  
-- dbt (data transformation layer)  
 
 ---
 
