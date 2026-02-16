@@ -97,8 +97,8 @@ Data transformation focuses on cleaning, aggregating, and feature engineering to
 | [**Data**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/tree/main/data)| All datasets, including raw and processed data. |
 | [**Notebooks**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/tree/main/notebooks) | Notebooks for ingestion, cleaning, feature engineering, EDA, and analysis. |
 | [**Reports**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/tree/main/reports) | Generated figures, PDFs, summaries, and analytics insights. |
-| .gitignore | Untracked files excluded from Git. |
-| README.md | This project documentation. |
+| [**.gitignore**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/blob/main/.gitignore) | Untracked files excluded from Git. |
+| [**README.md**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/blob/main/README.md) | This project documentation. |
 
 ---
 
@@ -107,11 +107,20 @@ Data transformation focuses on cleaning, aggregating, and feature engineering to
 ```text
 customer-churn-behavior-analysis/
 ├── data/                  # Raw and processed data
+│
+├── Docs/                  # Documentation, Instruction
+│
 ├── notebooks/             # Jupyter notebooks with analysis
+│   ├── 01_eda/           	# Exploratory Data Analysis
+│   ├── 02_data_cleaning/ 	# Data Cleaning and Transformation
+│   └── 03_analysis/     	# Data Analysis & Statistical Testing
+│
 ├── reports/
 │   ├── figures/           # Analysis figures and charts
 │   └── final_reports/     # PDF reports
+│
 ├── README.md              # Project documentation
+│
 └── .gitignore             # Files/folders to exclude from Git
 
 ```
