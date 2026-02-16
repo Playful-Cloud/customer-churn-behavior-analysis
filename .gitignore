@@ -1,3 +1,6 @@
+# keep previous rules
+# ...
+
 # Ignore all CSVs, Excel, PDFs in data and docs
 data/*.csv
 data/*.xlsx
@@ -5,14 +8,17 @@ data/*.xls
 docs/*.pdf
 
 # Ignore everything else in these folders
-data/*
-docs/*
+# data/*
+# docs/*
 
 # Keep placeholders
 !data/.gitkeep
 !data/README.md
 !docs/.gitkeep
 !docs/README.md
+
+# Don't ignore reports/figures images
+!reports/figures/*.png
 
 # Ignore Python cache
 __pycache__/
