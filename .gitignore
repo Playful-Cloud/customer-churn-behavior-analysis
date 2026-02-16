@@ -33,3 +33,11 @@ data/
 __pycache__/
 *.pyc
 
+# Data
+data/
+*.csv
+
+# Documents
+docs/
+*.pdf
+
