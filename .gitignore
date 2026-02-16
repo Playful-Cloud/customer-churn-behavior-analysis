@@ -11,6 +11,10 @@ reports/figures/*
 # Keep .gitkeep in figures to preserve folder
 !reports/figures/.gitkeep
 
+# Keep .gitkeep in figures to preserve folder
+!reports/reports/.gitkeep
+!reports/reports/*.pdf
+
 # ------------------------
 # Data and Docs folders
 # ------------------------
