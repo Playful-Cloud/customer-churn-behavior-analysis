@@ -11,7 +11,7 @@ reports/figures/*
 # Keep .gitkeep in figures to preserve folder
 !reports/figures/.gitkeep
 
-# Keep .gitkeep in figures to preserve folder
+# Allow PDFs in final_reports
 !reports/final_reports/.gitkeep
 !reports/final_reports/*.pdf
 
