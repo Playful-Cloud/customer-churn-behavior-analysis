@@ -1,14 +1,29 @@
-# Don't ignore reports/figures images
+# ------------------------
+# Reports folder
+# ------------------------
+
+# Ignore everything in reports/figures
 reports/figures/*
+
+# But do NOT ignore PNG images
 !reports/figures/*.png
 
-# Ignore all CSVs, Excel, PDFs in data and docs
+# Keep .gitkeep in figures to preserve folder
+!reports/figures/.gitkeep
+
+# ------------------------
+# Data and Docs folders
+# ------------------------
+
+# Ignore all CSVs, Excel files in data
 data/*.csv
 data/*.xlsx
 data/*.xls
+
+# Ignore all PDFs in docs
 docs/*.pdf
 
-# Ignore everything else in these folders
+# Ignore everything else in data/docs
 data/*
 docs/*
 
@@ -18,14 +33,11 @@ docs/*
 !docs/.gitkeep
 !docs/README.md
 
-# Ignore Python cache
+# ------------------------
+# Cache and system files
+# ------------------------
 __pycache__/
 *.pyc
-
-# Ignore Jupyter checkpoints
 .ipynb_checkpoints/
-
-# Ignore system files
 .DS_Store
 Thumbs.db
-
