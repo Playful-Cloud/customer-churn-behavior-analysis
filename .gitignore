@@ -1,10 +1,8 @@
-# Ignore datasets
+# Ignore all CSV, Excel, PDF files
 *.csv
 *.xlsx
 *.xls
-
-# Ignore raw data folder
-#data/
+*.pdf
 
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
@@ -17,27 +15,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Data folders
-#data/
-
-# CSV files
-*.csv
-
-# PDFs
-*.pdf
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Data
+# Folders
 data/
-*.csv
-
-# Documents
 docs/
-*.pdf
 
+# But include README.md in these folders
+!data/README.md
+!docs/README.md
