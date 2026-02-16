@@ -1,15 +1,15 @@
 # keep previous rules
 # ...
 
+# Ignore everything else in these folders
+data/*
+docs/*
+
 # Ignore all CSVs, Excel, PDFs in data and docs
 data/*.csv
 data/*.xlsx
 data/*.xls
 docs/*.pdf
-
-# Ignore everything else in these folders
-# data/*
-# docs/*
 
 # Keep placeholders
 !data/.gitkeep
