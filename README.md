@@ -1,16 +1,12 @@
-!\[Customer Churn Banner](https://raw.githubusercontent.com/Playful-Cloud/customer-churn-behavior-analysis/main/reports/figures/Customer\_Churn\_Analysis.png)
-
-
-
-
-
-
-
-
-
-
-
 \# Customer Churn Behavior Analysis
+
+
+
+!\[Customer Churn Banner](reports/figures/Customer\_Churn\_Analysis.png)
+
+
+
+
 
 
 
