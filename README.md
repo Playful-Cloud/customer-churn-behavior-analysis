@@ -234,7 +234,7 @@ print(f"P-value: {p_value:.4f}")
 
 | File | Description |
 |:--------|:-------------|
-| [**Fit.ly Customer Churn Analysis/**](./Fit.ly Customer Churn Analysis.pdf) |  A comprehensive report summarizing the entire churn analysis project. Includes: customer segmentation, engagement and support behavior analysis, key metrics, Chi-Square statistical tests, visualizations, and actionable business recommendations. |
+| [**Customer_Churn_Analysis/**](./Fit.ly Customer Churn Analysis.pdf) |  A comprehensive report summarizing the entire churn analysis project. Includes: customer segmentation, engagement and support behavior analysis, key metrics, Chi-Square statistical tests, visualizations, and actionable business recommendations. |
 
 ---
 
