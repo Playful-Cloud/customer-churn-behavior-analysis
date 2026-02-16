@@ -1,3 +1,7 @@
+# Don't ignore reports/figures images
+reports/figures/*
+!reports/figures/*.png
+
 # Ignore all CSVs, Excel, PDFs in data and docs
 data/*.csv
 data/*.xlsx
@@ -25,5 +29,3 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Don't ignore reports/figures images
-!reports/figures/*.png
