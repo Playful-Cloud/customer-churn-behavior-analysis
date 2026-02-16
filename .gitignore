@@ -1,24 +1,26 @@
-# Ignore all CSV, Excel, PDF files
-*.csv
-*.xlsx
-*.xls
-*.pdf
+# Ignore all CSVs, Excel, PDFs in data and docs
+data/*.csv
+data/*.xlsx
+data/*.xls
+docs/*.pdf
 
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
+# Ignore everything else in these folders
+data/*
+docs/*
+
+# Keep placeholders
+!data/.gitkeep
+!data/README.md
+!docs/.gitkeep
+!docs/README.md
 
 # Ignore Python cache
 __pycache__/
 *.pyc
 
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
 # Ignore system files
 .DS_Store
 Thumbs.db
-
-# Folders
-data/
-docs/
-
-# But include README.md in these folders
-!data/README.md
-!docs/README.md
