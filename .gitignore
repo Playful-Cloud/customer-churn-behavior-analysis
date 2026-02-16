@@ -4,7 +4,7 @@
 *.xls
 
 # Ignore raw data folder
-data/
+#data/
 
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
@@ -18,7 +18,7 @@ __pycache__/
 Thumbs.db
 
 # Data folders
-data/
+#data/
 
 # CSV files
 *.csv
