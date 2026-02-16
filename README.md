@@ -155,6 +155,8 @@ chi2, p_value, dof, expected = chi2_contingency(chi_table)
 print(f"Chi-square statistic: {chi2:.2f}")
 print(f"P-value: {p_value:.4f}")
 
+```
+
 ---
 
 ### Results:
