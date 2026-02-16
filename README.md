@@ -115,3 +115,128 @@ customer-churn-behavior-analysis/
 │   └── final_reports/     # PDF reports
 ├── README.md              # Project documentation
 └── .gitignore             # Files/folders to exclude from Git
+
+
+---
+
+## Analysis Results & Key Findings
+
+### Churn Segmentation Table
+
+| Low Engagement | High Support | Churn N | No Churn N | Total | Churn Rate (%) |
+|----------------|--------------|---------|------------|-------|----------------|
+| False          | False        | 5       | 71         | 76    | 6.6            |
+| False          | True         | 2       | 56         | 58    | 3.4            |
+| True           | False        | 58      | 102        | 160   | 36.2           |
+| True           | True         | 49      | 57         | 106   | 46.2           |
+| **All**        |              | 114     | 286        | 400   | 28.5           |
+
+**Insights:**
+
+- Churn is strongly associated with **low engagement**.  
+- Support ticket volume alone shows weak separation, but combined with engagement, it becomes a **powerful risk signal**.  
+- Customers with both low engagement and high support usage exhibit the **highest churn rate (~46%)**.  
+- Early disengagement coupled with high support friction is the **highest-risk segment**.
+
+---
+
+### Chi-Square Test
+
+```python
+# Contingency table for chi-square test
+chi_table = pd.crosstab(
+    [final_df["low_engagement"], final_df["high_support"]],
+    final_df["churn_status"]
+)
+
+chi2, p_value, dof, expected = chi2_contingency(chi_table)
+
+print(f"Chi-square statistic: {chi2:.2f}")
+print(f"P-value: {p_value:.4f}")
+
+---
+
+### Results:
+
+- Chi-square statistic: 56.85
+- P-value: 0.0000
+
+### Interpretation:
+
+- P-value < 0.05 confirms the relationship is statistically significant.
+- The observed churn pattern is not random; it reflects a real behavioral relationship in the data.
+
+---
+
+### Key Findings
+
+- Low engagement is the strongest behavioral indicator of churn.
+- Support ticket volume alone has limited predictive power, but in combination with low engagement, churn risk is amplified.
+- Customers with low engagement and high support usage show the highest churn (~46%).
+- Prolonged support resolution times materially increase churn risk.
+
+---
+
+### Metric to Monitor
+
+1. Early Engagement Rate (EER):
+- % of new customers performing >1 activity event in initial usage period.
+- Baseline from data: ≈75% of users have >1 event.
+- Users with ≤1 event:
+ - Churn: 36% (low engagement alone)
+ - Churn: 46% (combined with high support)
+
+2. Monitoring:
+- Track weekly or monthly.
+- Segment by plan type (Free vs Paid) and support interaction.
+- Flag drops below baseline for early intervention.
+
+---
+
+### Recommendations
+
+1. Prioritize Early Engagement Activation
+- Onboarding nudges & guided actions in the first sessions.
+- Encourage ≥2 meaningful actions (e.g., workout tracking or content interaction).
+- Expected impact: Reduce early disengagement, lower churn.
+
+2. Escalate Support Resolution for Low-Engagement Users
+- Flag users with low engagement & high support usage.
+- Prioritize faster resolution & first-contact problem solving.
+- Expected impact: Reduce friction, prevent churn from unresolved frustration.
+
+
+---
+
+### Final Summary
+
+- Customer churn is primarily driven by early disengagement.
+- Users with ≤1 activity event have significantly higher churn, especially with frequent support interactions.
+- Support resolution time exacerbates churn risk.
+- Actionable metrics (Early Engagement Rate) and targeted interventions can help mitigate churn and improve retention.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
