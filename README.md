@@ -93,11 +93,10 @@ Data transformation focuses on cleaning, aggregating, and feature engineering to
 
 | Folder | Description |
 |--------|-------------|
-| docs/ | Documentation including data dictionaries, methodology notes. |
-| data/ | All datasets, including raw and processed data. |
-| notebooks/ | Notebooks for ingestion, cleaning, feature engineering, EDA, and analysis. |
-| scripts/ | Python scripts for automation and transformations. |
-| reports/ | Generated figures, PDFs, summaries, and analytics insights. |
+| [**Docs**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/tree/main/docs) | Documentation including data dictionaries, methodology notes. |
+| [**Data**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/tree/main/data)| All datasets, including raw and processed data. |
+| [**Notebooks**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/tree/main/notebooks) | Notebooks for ingestion, cleaning, feature engineering, EDA, and analysis. |
+| [**Reports**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/tree/main/reports) | Generated figures, PDFs, summaries, and analytics insights. |
 | .gitignore | Untracked files excluded from Git. |
 | README.md | This project documentation. |
 
