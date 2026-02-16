@@ -6,7 +6,9 @@ This folder contains the raw and processed data files for the project.
 
 
 
-\*\*Note:\*\* These files are not original work and are provided for analysis purposes only.
+\*\*Note:\*\* These file/s are not original mine, thus i cannot distribute or share.
+
+this file is provided and intended for data analysis for certification purposes only.
 
 
 

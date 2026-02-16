@@ -8,7 +8,9 @@ This folder contains documentation and reference files related to the project.
 
 
 
-\*\*Note:\*\* These files are not original work and are for reference purposes only.
+\*\*Note:\*\* These file/s are not original mine, thus i cannot distribute or share.
+
+this file is provided and intended for data analysis for certification purposes only.
 
 
 
