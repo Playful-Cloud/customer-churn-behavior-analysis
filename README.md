@@ -1,4 +1,4 @@
-!\[Customer Churn Banner](reports/figures/Customer Churn Analysis.png)
+!\[Customer Churn Banner](reports/figures/Customer\_Churn\_Analysis.png)
 
 
 
