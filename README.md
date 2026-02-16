@@ -123,9 +123,9 @@ customer-churn-behavior-analysis/
 
 | Notebook | Description |
 |:--------|:-------------|
-| [**01_eda/**](./01_eda.ipynb) |  Exploratory Data Analysis (EDA) covering initial data exploration, distributions, correlations, and outlier detection.. |
-| [**02_data_cleaning/**](./02_data_cleaning.ipynb) |  Data Cleaning and Transformation: missing value handling, duplicates removal, standardization, feature derivation, and quality checks. |
-| [**03_analysis/**](./03_analysis.ipynb) |  Data Analysis & Insights: segmentation, churn behavior patterns, statistical tests (Chi-Square), and visualization of key metrics.. |
+| [**01_eda/**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/blob/main/notebooks/01_eda.ipynb) |  Exploratory Data Analysis (EDA) covering initial data exploration, distributions, correlations, and outlier detection.. |
+| [**02_data_cleaning/**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/blob/main/notebooks/02_data_cleaning.ipynb) |  Data Cleaning and Transformation: missing value handling, duplicates removal, standardization, feature derivation, and quality checks. |
+| [**03_analysis/**](https://github.com/Playful-Cloud/customer-churn-behavior-analysis/blob/main/notebooks/03_analysis.ipynb) |  Data Analysis & Insights: segmentation, churn behavior patterns, statistical tests (Chi-Square), and visualization of key metrics.. |
 
 
 ---
