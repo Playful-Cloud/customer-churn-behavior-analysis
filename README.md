@@ -1,24 +1,4 @@
-!\[Business Problem Goals](reports/figures/Business\_roblem\_Goals.png)
-
-!\[Chi-Square Test](reports/figures/Chi\_square\_Test.png)
-
-!\[Churn Rate](reports/figures/ChurnRate.png)
-
-!\[Classification Type](reports/figures/Classification\_Type.png)
-
-!\[Customer Churn Banner](reports/figures/Customer\_Churn\_Analysis.png)
-
-!\[Rec](reports/figures/Rec.png)
-
-!\[Resolution Time](reports/figures/Resolution\_Time.png)
-
-!\[Ticket Counts 1](reports/figures/Ticket\_Counts1.png)
-
-!\[Ticket Counts 2](reports/figures/Ticket\_Counts2.png)
-
-!\[Tables \& Columns](reports/figures/tables\_n\_columns.png)
-
-
+!\[Customer Churn Banner](https://raw.githubusercontent.com/Playful-Cloud/customer-churn-behavior-analysis/main/reports/figures/Customer\_Churn\_Analysis.png)
 
 
 
