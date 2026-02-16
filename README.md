@@ -107,7 +107,6 @@ Data transformation focuses on cleaning, aggregating, and feature engineering to
 
 ```text
 customer-churn-behavior-analysis/
-│
 ├── data/                  # Raw and processed data
 ├── notebooks/             # Jupyter notebooks with analysis
 ├── reports/
@@ -116,10 +115,10 @@ customer-churn-behavior-analysis/
 ├── README.md              # Project documentation
 └── .gitignore             # Files/folders to exclude from Git
 
+```
+
+
 ---
-
-
-
 
 ## Analysis Results & Key Findings
 
